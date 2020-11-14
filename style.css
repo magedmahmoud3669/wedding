@@ -1,0 +1,145 @@
+.container-fluid{
+   margin-bottom: 75px;
+}
+/* .container-fluid-2{
+    border: 2px blueviolet;
+    background-color: blue;
+}
+.container-fluid-3{
+    border: 2px blueviolet;
+    background-color:chocolate;
+} */
+.navbar-brand{
+    margin-right: 700px; 
+    margin-left: 70px;
+}
+.navbar-brand h2{
+font-family: 'Paris Script';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #000;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+ .carousel-item img{
+    max-height: 500px;
+ width: 412px;
+ margin: 5px;
+    display: inline;
+} 
+.col-6 p span{
+    color: #dd888d;
+    font-size: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+ @media only screen and (max-width: 600px) {
+    img{
+        width: 100%;
+    }
+ }
+ /* @media (min-width: 992px) {
+    img{
+        width: 100%;
+    } 
+  } */
+ /* @media only screen and (max-width: 768px) {
+    img{
+        width: 95%;
+    } */
+
+ /* .container{
+     margin-bottom: 75px;
+     margin-top: 75px;
+ } */
+ /* hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+} */
+/* .card-img-top{
+    /* padding: 50px;
+    background-color: green; */
+    /* transition: transform .2s; Animation */
+    /* width: 200px;
+    height: 200px;
+    margin: 0 auto; */
+/* } */
+/* .card-img-top:hover{
+    transform: scale(1.5);
+} */
+.card-img-top{
+    transition: transform .2s; 
+}
+.card-img-top:hover{
+    transform: scale(1.09);
+}
+
+.styleP{
+    width:400px;
+    height:150px;
+    border:1px cornsilk;
+    background-color: cornsilk;
+    transform:translate(360px,20px);
+    position: relative;
+    text-align: center;
+    
+    
+}
+
+.text1{
+    
+    background-position: center;
+    width: 100%;
+    height:200px;
+    background-image: url("1.jpg") ;
+    background-image:no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+* {
+    box-sizing: border-box;
+  }
+  .brands{
+      height: 180px;
+      width: 210px;
+
+  }
+  .anchor{
+      text-decoration: none;
+      color: black;
+      display: block;
+  }
+  .anchor:hover{
+      color: brown;
+      text-decoration: none;
+  }
+  .container{
+         margin-top: 20px;
+         margin-bottom: 20px;
+  }
+  .wedding{
+    width: 600px;
+    /* height: 200px;  */
+    border:2px solid #fff;
+    background: url(img/tiger.png) no-repeat;
+    box-shadow: 10px 10px 5px #ccc;
+    transition: transform .2s; 
+    /* -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc; */
+  }
+  .wedding:hover{
+      transform: scale(.9);
+  }
+ 
